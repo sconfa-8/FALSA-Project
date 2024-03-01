@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<script setup>
 definePageMeta({
   layout: 'login',
 })
@@ -9,14 +9,13 @@ const { login, isLogged } = useAuth()
 
 const submitLogin = () => {
   const response = login(email.value, password.value)
-  if(!response.status){
+  if (!response.status) {
     //TODO handle error feedback
     return
   }
-  if(response.isHR){
+  if (response.isHR) {
     navigateTo('hr')
-  }
-  else{
+  } else {
     navigateTo('user')
   }
 }
@@ -24,7 +23,7 @@ const submitLogin = () => {
 
 <template>
   <div>
-    <form class="flex flex-col gap-2 bg-slate-500" >
+    <form class="flex flex-col gap-2 bg-slate-500">
       <input v-model="email" type="text" />
       <input type="password" v-model="password" />
       <button type="button" @click="submitLogin">Login</button>
