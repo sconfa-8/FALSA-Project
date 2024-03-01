@@ -3,8 +3,6 @@
 
 <template>
   <div>
-    <NuxtLayout>
-      <NuxtPage />
-    </NuxtLayout>
+    <slot />
   </div>
 </template>

@@ -3,18 +3,17 @@ import users from "../data/users.json"
 export const useAuth = () => {
     const isLogged = ref(false)
     const login = (username,password) => {
-        const hasUsername = users.some((el) => el.username === username)
-        if(!hasUsername){
+        const user = users.find((el) => el.username === username)
+        if(!user){
             isLogged.value = false
-            return false
+            return {status:false}
         }
-        const hasPassword = users.some((el) => el.password === password)
-        if(!hasPassword){
+        if(user.password !== password){
             isLogged.value = false
-            return false
+            return {status:false}
         }
         isLogged.value = true
-        return true
+        return {status:true,isHR:user.isHR}
     }
     return{
         isLogged,
