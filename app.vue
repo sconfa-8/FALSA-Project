@@ -2,7 +2,7 @@
 const email = ref()
 const password = ref()
 
-const {login} = useAuth()
+const {login,isLogged} = useAuth()
 
 const submitLogin = () => {
   const isLogged = login(email.value,password.value)
@@ -16,5 +16,6 @@ const submitLogin = () => {
       <input v-model="password" type="text">
       <button type="button" @click="submitLogin">Login</button>
     </form>
+    {{ isLogged }}
   </div>
 </template>
