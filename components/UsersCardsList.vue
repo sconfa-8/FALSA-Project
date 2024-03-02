@@ -21,7 +21,7 @@ const isOpenInfo = useState('isOpenInfo')
     </div>
     <div>
       <div class="w-full flex relative" @click="isOpenInfo = true">
-        <p class="w-1/2">Federico Rossi</p>
+        <p class="w-1/2">Maria Bianchi</p>
         <p class="w-1/2">26-01-2023</p>
         <IconsArrowLeft class="h-4 w-4 absolute right-0" />
       </div>
