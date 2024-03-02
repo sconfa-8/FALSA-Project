@@ -2,7 +2,7 @@
 
 <template>
   <div class="space-y-4">
-    <p class="underline text-xl">Feedback</p>
+    <p class=" text-2xl">Feedback</p>
 
     <div class="flex gap-8">
       <div class="h-4 w-4 mt-4 rounded-full border-2 border-black"></div>

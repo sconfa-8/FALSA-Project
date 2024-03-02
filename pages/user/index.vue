@@ -24,7 +24,7 @@ const tourTeamProps = {
       </p>
     </div>
     <div class="flex justify-center">
-      <p class="text-xl underline">Dati utente:</p>
+      <p class="text-2xl">Dati utente:</p>
     </div>
     <div class="w-full flex flex-col md:flex-row gap-4">
       <div class="w-full md:w-1/2">
@@ -68,7 +68,7 @@ const tourTeamProps = {
     </div>
     <div class="h-[1px] bg-slate-500 my-2"></div>
     <div class="flex justify-center">
-      <p class="text-xl underline">Team:</p>
+      <p class="text-2xl ">Team:</p>
     </div>
     <div class="w-full flex flex-col md:flex-row gap-4">
       <div class="w-full md:w-1/2">

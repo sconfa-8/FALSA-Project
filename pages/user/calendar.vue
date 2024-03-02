@@ -2,7 +2,7 @@
 
 <template>
   <div>
-    <p class="text-xl underline pb-4">Calendario incontri</p>
+    <p class="text-2xl pb-4">Calendario incontri</p>
     <div class="flex flex-col gap-3">
       <div class="text-lg">Lunedi 11-01-2024</div>
       <CalendarCard>Antonello Sanna 12:00-13:00</CalendarCard>

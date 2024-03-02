@@ -2,7 +2,7 @@
 
 <template>
   <div class="space-y-6">
-    <p class="underline text-xl">Notifiche</p>
+    <p class=" text-2xl">Notifiche</p>
 
     <p class="uppercase bg-gray-500 text-white w-full px-2">Da leggere</p>
 

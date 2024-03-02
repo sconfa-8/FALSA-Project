@@ -14,7 +14,7 @@ const isOpenInfo = useState('isOpenInfo', () => false)
         </button>
       </div>
       <div class="flex justify-center">
-          <p class="text-xl underline">Dati utente:</p>
+          <p class="text-2xl">Dati utente:</p>
         </div>
       <div class="w-full flex flex-col md:flex-row gap-4">
         <div class="w-full md:w-1/2">
@@ -58,7 +58,7 @@ const isOpenInfo = useState('isOpenInfo', () => false)
       </div>
       <div class="h-[1px] bg-slate-500 my-2"></div>
       <div class="flex justify-center">
-        <p class="text-xl underline">Team:</p>
+        <p class="text-2xl">Team:</p>
       </div>
       <div class="w-full flex flex-col md:flex-row gap-4">
         <div class="w-full md:w-1/2">
@@ -72,7 +72,7 @@ const isOpenInfo = useState('isOpenInfo', () => false)
       </div>
       <div>
         <div class="flex justify-center">
-          <p class="text-xl underline">Feedback:</p>
+          <p class="text-2xl">Feedback:</p>
         </div>
         <div class="space-y-4">
 
@@ -125,7 +125,7 @@ const isOpenInfo = useState('isOpenInfo', () => false)
   </div>
       </div>
       <div class="flex items-center justify-center">
-        <p class="text-xl underline pb-4">Calendario incontri</p>
+        <p class="text-2xl pb-4">Calendario incontri</p>
       </div>
       <div class="flex flex-col gap-3">
         <div class="text-lg">Lunedi 11-01-2024</div>

@@ -4,7 +4,7 @@ import usersData from '../data/events.json'
 
 <template>
   <div class="space-y-8 pb-6">
-    <p class="underline text-xl">News e Eventi</p>
+    <p class=" text-2xl">News e Eventi</p>
     <p>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
       tempor incididunt ut labore et dolore magna aliqua.
