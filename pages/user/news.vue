@@ -6,8 +6,7 @@ import usersData from '../data/events.json'
   <div class="space-y-8 pb-6">
     <p class=" text-2xl">News e Eventi</p>
     <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua.
+      Scopri i nuovi eventi proposti da Retex e le news riguardanti la tua azienda
     </p>
 
     <!-- Events cards -->
