@@ -1,4 +1,15 @@
-<script setup></script>
+<script setup>
+defineProps({
+  teamLeader: {
+    fullName: String,
+    email: String,
+  },
+  teamBuddy: {
+    fullName: String,
+    email: String,
+  },
+})
+</script>
 
 <template>
   <div>
@@ -13,8 +24,8 @@
           </div>
         </div>
         <div class="w-full">
-          <p>Team Leader: Nome Cognome</p>
-          <p>Email Team Leader</p>
+          <p>Team Leader: {{ teamLeader.fullName }}</p>
+          <p>{{ teamLeader.email }}</p>
         </div>
       </div>
       <div class="flex items-center gap-2">
@@ -26,8 +37,8 @@
           </div>
         </div>
         <div class="w-full">
-          <p>Team Leader: Nome Cognome</p>
-          <p>Email Team Leader</p>
+          <p>Team Leader: {{ teamBuddy?.fullName }}</p>
+          <p>{{ teamBuddy?.email }}</p>
         </div>
       </div>
     </div>

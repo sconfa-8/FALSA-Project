@@ -1,16 +1,15 @@
 <script setup>
-// TODO: get data from user list
-const userData = {
-  firstName: 'Pino',
-  lastName: 'Hdawdn',
-  role: 'user',
-  department: 'Atoms',
-  site: 'Milano',
-  email: 'example@test.com',
-  phone: '3333333333',
-  businessTools: 'awkjnad',
-  extraData: 'adnwjadna',
-}
+defineProps({
+  firstName: String,
+  lastName: String,
+  role: String,
+  department: String,
+  site: String,
+  email: String,
+  phone: String,
+  businessTools: String,
+  assumption: String,
+})
 </script>
 
 <template>
@@ -18,14 +17,14 @@ const userData = {
     <p class="underline">I tuoi dati</p>
     <div class="grid grid-cols-2">
       <div>
-        <p>{{ `${userData.firstName} ${userData.lastName}` }}</p>
-        <p>{{ userData.role }}</p>
-        <p>{{ userData.department }}</p>
-        <p>{{ userData.site }}</p>
-        <p>{{ userData.email }}</p>
-        <p>{{ userData.phone }}</p>
-        <p>{{ userData.businessTools }}</p>
-        <p>{{ userData.extraData }}</p>
+        <p>{{ `${firstName} ${lastName}` }}</p>
+        <p>{{ role }}</p>
+        <p>{{ department }}</p>
+        <p>{{ site }}</p>
+        <p>{{ email }}</p>
+        <p>{{ phone }}</p>
+        <p>{{ businessTools }}</p>
+        <p>{{ assumption }}</p>
       </div>
 
       <div class="flex items-center justify-center">

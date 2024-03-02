@@ -1,0 +1,112 @@
+[
+  {
+    "uid": "1",
+    "firstName": "Marco",
+    "lastName": "Rossi",
+    "role": "Developer",
+    "department": "Witailer",
+    "site": "Padova",
+    "email": "marco.rossi@example.it",
+    "phone": "+39 0123456789",
+    "assumption date": "2023-05-15"
+  },
+  {
+    "uid": "2",
+    "firstName": "Anna",
+    "lastName": "Bianchi",
+    "role": "Designer",
+    "department": "Atoms",
+    "site": "Milano",
+    "email": "anna.bianchi@example.it",
+    "phone": "+39 9876543210",
+    "assumption date": "2023-08-22"
+  },
+  {
+    "uid": "3",
+    "firstName": "Luca",
+    "lastName": "Ricci",
+    "role": "Sales & Business Development",
+    "department": "Connexia",
+    "site": "Arborea",
+    "email": "luca.ricci@example.it",
+    "phone": "+39 1122334455",
+    "assumption date": "2023-07-10"
+  },
+  {
+    "uid": "4",
+    "firstName": "Giulia",
+    "lastName": "Verdi",
+    "role": "Marketing Manager",
+    "department": "Venistar",
+    "site": "Padova",
+    "email": "giulia.verdi@example.it",
+    "phone": "+39 9988776655",
+    "assumption date": "2023-06-05"
+  },
+  {
+    "uid": "5",
+    "firstName": "Antonio",
+    "lastName": "Neri",
+    "role": "Analytics",
+    "department": "Witailer",
+    "site": "Milano",
+    "email": "antonio.neri@example.it",
+    "phone": "+39 1122334455",
+    "assumption date": "2023-09-18"
+  },
+  {
+    "uid": "6",
+    "firstName": "Elena",
+    "lastName": "Gallo",
+    "role": "Project Manager",
+    "department": "Atoms",
+    "site": "Arborea",
+    "email": "elena.gallo@example.it",
+    "phone": "+39 9988776655",
+    "assumption date": "2023-11-30"
+  },
+  {
+    "uid": "7",
+    "firstName": "Roberto",
+    "lastName": "Bruno",
+    "role": "Developer",
+    "department": "Connexia",
+    "site": "Padova",
+    "email": "roberto.bruno@example.it",
+    "phone": "+39 1122334455",
+    "assumption date": "2023-04-12"
+  },
+  {
+    "uid": "8",
+    "firstName": "Valentina",
+    "lastName": "Ferrari",
+    "role": "Designer",
+    "department": "Venistar",
+    "site": "Milano",
+    "email": "valentina.ferrari@example.it",
+    "phone": "+39 9988776655",
+    "assumption date": "2023-10-08"
+  },
+  {
+    "uid": "9",
+    "firstName": "Giovanni",
+    "lastName": "Bianco",
+    "role": "Sales & Business Development",
+    "department": "Witailer",
+    "site": "Arborea",
+    "email": "giovanni.bianco@example.it",
+    "phone": "+39 1122334455",
+    "assumption date": "2023-02-25"
+  },
+  {
+    "uid": "10",
+    "firstName": "Sofia",
+    "lastName": "Conti",
+    "role": "Marketing Manager",
+    "department": "Connexia",
+    "site": "Padova",
+    "email": "sofia.conti@example.it",
+    "phone": "+39 9988776655",
+    "assumption date": "2023-12-15"
+  }
+]
