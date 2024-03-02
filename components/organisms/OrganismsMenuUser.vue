@@ -25,22 +25,36 @@ const menuItems = [
 </script>
 
 <template>
-  <div class="grid grid-cols-4 justify-between w-full border-t-black border-t pt-2">
-    <NuxtLink to="/user" class="flex flex-col items-center text-center">
-      <IconsCalendar class="h-4 w-4"/>
-      <p>Home</p>
-    </NuxtLink>
-    <NuxtLink to="/user/calendar" class="flex flex-col items-center text-center">
+  <div
+    class="grid grid-cols-4 justify-between w-full bg-gray-800 border-t-black border-t py-4"
+  >
+    <NuxtLink
+      to="/user"
+      class="flex flex-col items-center justify-betweentext-center"
+    >
       <IconsCalendar class="h-4 w-4" />
-      <p>Calendario</p>
+      <p class="text-white text-sm">Home</p>
     </NuxtLink>
-    <NuxtLink to="/user/info" class="flex flex-col items-center text-center">
+    <NuxtLink
+      to="/user/calendar"
+      class="flex flex-col justify-between items-center text-center"
+    >
+      <IconsCalendar class="h-4 w-4" />
+      <p class="text-white text-sm">Calendario</p>
+    </NuxtLink>
+    <NuxtLink
+      to="/user/info"
+      class="flex flex-col justify-between items-center text-center"
+    >
       <IconsInfo class="h-4 w-4" />
-      <p>Info Utili</p>
+      <p class="text-white text-sm">Info Utili</p>
     </NuxtLink>
-    <NuxtLink to="/user/news" class="flex flex-col items-center text-center">
-      <IconsNews class="h-4 w-4"/>
-      <p>News</p>
+    <NuxtLink
+      to="/user/news"
+      class="flex flex-col justify-between items-center text-center"
+    >
+      <IconsNews class="h-4 w-4" />
+      <p class="text-white text-sm">News</p>
     </NuxtLink>
   </div>
 </template>
