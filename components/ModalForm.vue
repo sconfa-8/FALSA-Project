@@ -9,7 +9,7 @@ const isOpen = useState('isOpen', () => false)
       v-if="isOpen"
     >
       <div class="form flex items-end justify-between pr-4 py-4 text-2xl">
-        <p>Inserisci nuovo impiegato</p>
+        <p>Inserisci nuovo Retexer</p>
         <button class="items-end" @click="isOpen = false">
           <IconsClose class="h-8 w-8" />
         </button>

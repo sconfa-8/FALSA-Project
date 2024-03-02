@@ -8,7 +8,7 @@ const isOpenInfo = useState('isOpenInfo', () => false)
       class="fixed overflow-y-scroll inset-0 md:inset-20 z-[999] bg-white rounded-lg shadow-lg flex flex-col gap-4 p-8"
       v-if="isOpenInfo"
     >
-      <div class="form flex items-end justify-end pr-4 py-4 text-2xl">
+      <div class="form flex items-end justify-end pr-4 text-2xl">
         <button class="items-end" @click="isOpenInfo = false">
           <IconsClose class="h-8 w-8" />
         </button>
