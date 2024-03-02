@@ -3,7 +3,7 @@ import usersData from '../data/events.json'
 </script>
 
 <template>
-  <div class="space-y-8">
+  <div class="space-y-8 pb-6">
     <p class="underline">News e Eventi</p>
     <p>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
