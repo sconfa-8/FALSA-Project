@@ -18,7 +18,7 @@ const isHR = fullPath.split('/').at(1) === 'hr'
         <Logo class="h-10 w-10" />
       </NuxtLink>
     </div>
-    <div class="px-6 pt-[72px] pb-[113px]">
+    <div class="px-6 pt-[90px] pb-[113px]">
       <slot />
     </div>
     <div
