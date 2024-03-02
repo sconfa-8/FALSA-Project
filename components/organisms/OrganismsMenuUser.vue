@@ -32,7 +32,7 @@ const menuItems = [
       to="/user"
       class="flex flex-col items-center justify-betweentext-center"
     >
-      <IconsCalendar class="h-4 w-4" />
+      <IconsHome class="h-4 w-4" />
       <p class="text-white text-sm">Home</p>
     </NuxtLink>
     <NuxtLink
