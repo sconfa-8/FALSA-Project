@@ -1,7 +1,7 @@
 <script setup></script>
 
 <template>
-  <div>
+  <div class="min-h-full">
     <UsersCardsList />
   </div>
 </template>
