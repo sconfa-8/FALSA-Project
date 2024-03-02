@@ -36,7 +36,7 @@ const isOpenInfo = useState('isOpenInfo')
     <ModalForm />
     <button
       @click="isOpen = true"
-      class="fixed bottom-[160px] bg-slate-200 rounded-lg p-4 w-1/2 left-1/2 -translate-x-1/2"
+      class="fixed bottom-[160px] bg-[#b1b2b4] rounded-lg p-4 w-1/2 left-1/2 -translate-x-1/2 font-bold"
     >
       Crea nuovo utente
     </button>

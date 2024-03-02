@@ -68,7 +68,7 @@ const isOpen = useState('isOpen', () => false)
       <div class="flex justify-center items-center">
         <button
           @click="isOpen = true"
-          class="bg-slate-200 rounded-lg p-4 w-1/2"
+          class="bg-[#b1b2b4] font-bold rounded-lg p-4 w-1/2"
         >
           Crea nuovo utente
         </button>
