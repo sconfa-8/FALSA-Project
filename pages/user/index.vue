@@ -14,7 +14,7 @@ const tourTeamProps = {
 </script>
 
 <template>
-  <div class="h-full px-4 space-y-6">
+  <div class="h-full space-y-6">
     <div>
       <h3 class="font-bold">Benvenuto in Retex, Pino!</h3>
       <p>

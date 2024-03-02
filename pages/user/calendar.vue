@@ -2,6 +2,6 @@
 
 <template>
   <div>
-    <p>This is Calendar page</p>
+    <p class="text-sm underline">Calendario incontri</p>
   </div>
 </template>
