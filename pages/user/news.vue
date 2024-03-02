@@ -1,7 +1,30 @@
-<script setup></script>
+<script setup>
+import usersData from '../data/events.json'
+</script>
 
 <template>
-  <div>
-    <p>This is News page</p>
+  <div class="space-y-8">
+    <p class="underline">News e Eventi</p>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua.
+    </p>
+
+    <!-- Events cards -->
+    <div
+      v-for="(item, index) in usersData"
+      :key="index"
+      class="grid grid-cols-12 gap-2 rounded-lg border border-black"
+    >
+      <div class="w-full h-full col-span-3 flex justify-center items-center">
+        <p>img</p>
+      </div>
+      <div class="col-span-9 pr-2 py-4">
+        <h3 class="font-bold">{{ item.title }}</h3>
+        <p>
+          {{ item.description }}
+        </p>
+      </div>
+    </div>
   </div>
 </template>
