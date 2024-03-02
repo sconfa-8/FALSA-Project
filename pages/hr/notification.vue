@@ -13,8 +13,7 @@
       <p>@Federico Rossi</p>
       <div class="border border-gray-400 rounded-2xl p-4">
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          L'esperienza e' stata positiva e mi sono divertito a conoscere nuovi colleghi.
         </p>
       </div>
       <div class="w-full flex justify-end px-4">
@@ -23,11 +22,10 @@
     </div>
 
     <div class="space-y-2">
-      <p>@Federico Rossi</p>
+      <p>@Luigi Verdi</p>
       <div class="border border-gray-400 rounded-2xl p-4">
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          Mi e' piaciuta molto l'atmosfera conviviale respirata all interno dell azienda. I colleghi sono molto simpatici, penso che mi trovero' bene.
         </p>
       </div>
       <div class="w-full flex justify-end px-4">
@@ -40,11 +38,10 @@
     </p>
 
     <div class="space-y-2">
-      <p>@Federico Rossi</p>
+      <p>@Maria Bianchi</p>
       <div class="border border-gray-400 rounded-2xl p-4">
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          All' inizio ero molto spaesata ma grazie all' aiuto dell HR mi sono trovata subito a casa.
         </p>
       </div>
       <div class="w-full flex justify-end px-4">
