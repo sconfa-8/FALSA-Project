@@ -29,8 +29,8 @@ const isDefinitive = ref(false)
         </div>
       </Transition>
     </div>
-    <div class="flex justify-center" v-if="isConfirm">
-        <p class="text-retex">Grazie della risposta!</p>
+    <div class="flex justify-center bg-retex" v-if="isConfirm">
+        <p class="text-white p-2">Grazie della risposta!</p>
     </div>
   </div>
 </template>
