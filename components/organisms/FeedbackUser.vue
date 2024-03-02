@@ -13,22 +13,26 @@ const clickHandler = () => {
 const isDefinitive = ref(false)
 </script>
 <template>
-  <div class="w-full">
-    <div v-if="!isConfirm && !isDefinitive" @click="isOpen = true" class="cursor-pointer">
-      <p @click="isOpen = true" class="bg-slate-400 p-2">
-        Ci dai un feedback sul tuo primo giorno?
-      </p>
+  <div class="w-full ">
+    <div v-if="!isConfirm && !isDefinitive" @click="isOpen = true" class="cursor-pointer bg-retex">
+      <div  @click="isOpen = true" class="w-full flex justify-center ">
+        <p class="px-2 py-4 text-white">
+          Ci dai un feedback sul tuo primo giorno?
+        </p>
+      </div>
     </div>
 
-    <div>
-      <Transition>
-        <div v-if="isOpen" class="flex gap-2">
-          <IconsStar class="h-4 w-4 cursor-pointer" v-for="i in 5" @click="clickHandler"/>
+    <div class=" bg-retex">
+      <Transition >
+        <div v-if="isOpen" class="flex gap-2 justify-center">
+          <IconsStar class="h-8 w-8 cursor-pointer fill-white" v-for="i in 5" @click="clickHandler"/>
         </div>
       </Transition>
     </div>
-    <div v-if="isConfirm">
-        <p class="text-green-500">Grazie della risposta!</p>
+    <div class="flex justify-center" v-if="isConfirm">
+        <p class="text-retex">Grazie della risposta!</p>
     </div>
   </div>
 </template>
+
+<style></style>
