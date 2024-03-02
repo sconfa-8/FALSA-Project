@@ -6,7 +6,7 @@ const isOpen = useState('isOpen', () => false)
   <Transition name="fade">
         <div
       class="fixed overflow-y-scroll inset-0 md:inset-20 z-[999] bg-white rounded-lg shadow-lg flex flex-col gap-4 p-8"
-      
+      v-if="isOpen"
     >
       <div class="form flex items-end justify-between pr-4 py-4 text-2xl">
         <p>Inserisci nuovo impiegato</p>
