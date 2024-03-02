@@ -8,7 +8,7 @@
       <div class="space-y-2">
         <h3>Federico Rossi @ RetexWelcome</h3>
         <div class="flex gap-2">
-          <IconsStar class="w-4 h-4 text-gray-305000" />
+          <IconsStar class="w-4 h-4 text-gray-500" />
           <IconsStar class="w-4 h-4 text-gray-500" />
           <IconsStar class="w-4 h-4 text-gray-500" />
           <IconsStar class="w-4 h-4 text-gray-500" />
