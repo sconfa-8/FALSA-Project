@@ -1,10 +1,12 @@
 <script setup></script>
 
 <template>
-  <div class="space-y-6">
-    <p class=" text-2xl">Notifiche</p>
+  <div class="space-y-6 pb-5">
+    <p class="text-2xl">Notifiche</p>
 
-    <p class="uppercase bg-gray-500 text-white w-full px-2">Da leggere</p>
+    <p class="uppercase bg-gray-500 rounded-lg text-white w-full px-4 py-1">
+      Da leggere
+    </p>
 
     <!-- Cards -->
     <div class="space-y-2">
@@ -33,7 +35,9 @@
       </div>
     </div>
 
-    <p class="uppercase bg-gray-500 text-white w-full px-2">Lette</p>
+    <p class="uppercase bg-gray-500 text-white w-full px-4 py-1 rounded-lg">
+      Lette
+    </p>
 
     <div class="space-y-2">
       <p>@Federico Rossi</p>
