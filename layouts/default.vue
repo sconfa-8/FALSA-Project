@@ -24,7 +24,7 @@ const isHR = fullPath.split('/').at(1) === 'hr'
     <div
     class="fixed bottom-0 right-0 left-0 bg-white flex-shrink-0 flex-grow-0"
     >
-    <OrganismsFeedbackUser />
+    <OrganismsFeedbackUser v-if="!isHR" />
     <OrganismsMenuHr v-if="isHR" />
     <OrganismsMenuUser v-else />
   </div>
