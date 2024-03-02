@@ -2,6 +2,6 @@
 
 <template>
   <div>
-    <p>This is Info page</p>
+    <Chatbot class="max-h-full"/>
   </div>
 </template>

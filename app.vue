@@ -2,7 +2,7 @@
 </script>
 
 <template>
-  <div>
+  <div class="max-h-[100vh]">
     <NuxtLayout>
       <NuxtPage />
     </NuxtLayout>
