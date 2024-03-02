@@ -5,7 +5,6 @@
     <p class=" text-2xl">Feedback</p>
 
     <div class="flex gap-8">
-      <div class="h-4 w-4 mt-4 rounded-full border-2 border-black"></div>
       <div class="space-y-2">
         <h3>Federico Rossi @ RetexWelcome</h3>
         <div class="flex gap-2">
@@ -21,7 +20,6 @@
       </div>
     </div>
     <div class="flex gap-8">
-      <div class="h-4 w-4 mt-4 rounded-full border-2 border-black"></div>
       <div class="space-y-2">
         <h3>Maria Bianchi @ RetexWelcome</h3>
         <div class="flex gap-2">
@@ -37,7 +35,6 @@
       </div>
     </div>
     <div class="flex gap-8">
-      <div class="h-4 w-4 mt-4 rounded-full border-2 border-black"></div>
       <div class="space-y-2">
         <h3>Luigi Verdi @ RetexWelcome</h3>
         <div class="flex gap-2">
