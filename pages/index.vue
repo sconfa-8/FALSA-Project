@@ -28,5 +28,10 @@ const submitLogin = () => {
       <input type="password" v-model="password" />
       <button type="button" @click="submitLogin">Login</button>
     </form>
+    <Modal
+      ><template #trigger><button>Test</button></template
+      ><template #title>Title</template
+      ><template #description>Description</template></Modal
+    >
   </div>
 </template>
