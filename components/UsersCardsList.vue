@@ -4,7 +4,7 @@ const isOpenInfo = useState('isOpenInfo')
 </script>
 
 <template>
-  <p class="text-2xl pb-4">Calendario incontri</p>
+  <p class="text-2xl pb-4">Ultimi Onboarding</p>
   <div class="w-full flex pb-2">
     <p class="font-bold w-1/2 flex">Nome</p>
     <p class="font-bold w-1/2 flex">Data Ingresso</p>
