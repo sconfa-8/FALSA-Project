@@ -1,4 +1,7 @@
-<script setup></script>
+<script setup>
+const isActive = ref('')
+
+</script>
 
 <template>
   <div

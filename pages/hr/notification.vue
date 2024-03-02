@@ -13,7 +13,7 @@
       <p>@Federico Rossi</p>
       <div class="border border-gray-400 rounded-2xl p-4">
         <p>
-          L'esperienza e' stata positiva e mi sono divertito a conoscere nuovi colleghi.
+          Ha eseguito l'accesso.
         </p>
       </div>
       <div class="w-full flex justify-end px-4">
@@ -22,10 +22,10 @@
     </div>
 
     <div class="space-y-2">
-      <p>@Luigi Verdi</p>
+      <p>@Massimo Pegoraro</p>
       <div class="border border-gray-400 rounded-2xl p-4">
         <p>
-          Mi e' piaciuta molto l'atmosfera conviviale respirata all interno dell azienda. I colleghi sono molto simpatici, penso che mi trovero' bene.
+          Ha votato 5 stelle a @FedericoRossi
         </p>
       </div>
       <div class="w-full flex justify-end px-4">
@@ -41,7 +41,7 @@
       <p>@Maria Bianchi</p>
       <div class="border border-gray-400 rounded-2xl p-4">
         <p>
-          All' inizio ero molto spaesata ma grazie all' aiuto dell HR mi sono trovata subito a casa.
+          Ha eseguito l'accesso.
         </p>
       </div>
       <div class="w-full flex justify-end px-4">
