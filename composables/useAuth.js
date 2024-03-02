@@ -15,6 +15,7 @@ export const useAuth = () => {
         isLogged.value = true
         return {status:true,isHR:user.isHR}
     }
+    
     return{
         isLogged,
         login

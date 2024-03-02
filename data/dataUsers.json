@@ -1,14 +1,39 @@
 [
   {
     "uid": "1",
-    "firstName": "Marco",
+    "firstName": "Mario",
     "lastName": "Rossi",
+    "userId":"MarioRossi",
     "role": "Developer",
     "department": "Witailer",
     "site": "Padova",
-    "email": "marco.rossi@example.it",
+    "email": "mario.rossi@example.it",
     "phone": "+39 0123456789",
-    "assumption date": "2023-05-15"
+    "assumption date": "2023-05-15",
+    "events": [
+      {
+        "date": "12-01-2024",
+        "events": [
+          {
+            "name": "Sanna",
+            "hour": "12:00/13:00"
+          },
+          {
+            "name": "Dallera",
+            "hour": "13:00/14:00"
+          }
+        ]
+      },
+      {
+        "date": "13-01-2024",
+        "events": [
+          {
+            "name": "Pego",
+            "hour": "12:00/13:00"
+          }
+        ]
+      }
+    ]
   },
   {
     "uid": "2",

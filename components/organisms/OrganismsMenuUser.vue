@@ -17,7 +17,7 @@ const menuItems = [
     url: '/user/info',
   },
   {
-    label: 'News ed Eventi',
+    label: 'News',
     icon: 'news',
     url: '/user/news',
   },
