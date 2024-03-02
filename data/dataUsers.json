@@ -1,13 +1,13 @@
 [
   {
     "uid": "1",
-    "firstName": "Pino",
-    "lastName": "Pasticcio",
-    "userId":"PinoPasticcio",
+    "firstName": "Federico",
+    "lastName": "Rossi",
+    "userId":"FedericoRossi",
     "role": "Developer",
     "department": "Witailer",
     "site": "Padova",
-    "email": "pino.pasticcio@example.it",
+    "email": "federico.rossi@example.it",
     "phone": "+39 0123456789",
     "assumption-date": "2023-05-15",
     "events": [

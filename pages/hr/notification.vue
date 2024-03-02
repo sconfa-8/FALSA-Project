@@ -8,7 +8,7 @@
 
     <!-- Cards -->
     <div class="space-y-2">
-      <p>@Pino Pasticcio</p>
+      <p>@Federico Rossi</p>
       <div class="border border-gray-400 rounded-2xl p-4">
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -21,7 +21,7 @@
     </div>
 
     <div class="space-y-2">
-      <p>@Pino Pasticcio</p>
+      <p>@Federico Rossi</p>
       <div class="border border-gray-400 rounded-2xl p-4">
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -36,7 +36,7 @@
     <p class="uppercase bg-gray-500 text-white w-full px-2">Lette</p>
 
     <div class="space-y-2">
-      <p>@Pino Pasticcio</p>
+      <p>@Federico Rossi</p>
       <div class="border border-gray-400 rounded-2xl p-4">
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -49,7 +49,7 @@
     </div>
 
     <div class="space-y-2">
-      <p>@Pino Pasticcio</p>
+      <p>@Federico Rossi</p>
       <div class="border border-gray-400 rounded-2xl p-4">
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do

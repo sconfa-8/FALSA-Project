@@ -12,7 +12,7 @@ const isOpenInfo = useState('isOpenInfo')
   <div class="user-cards flex flex-col gap-2">
     <div>
       <div class="w-full flex relative" @click="isOpenInfo = true">
-        <p class="w-1/2">Pino Pasticcio</p>
+        <p class="w-1/2">Federico Rossi</p>
         <p class="w-1/2">12-02-2023</p>
         <IconsArrowLeft class="h-4 w-4 absolute right-0" />
       </div>
@@ -21,7 +21,7 @@ const isOpenInfo = useState('isOpenInfo')
     </div>
     <div>
       <div class="w-full flex relative" @click="isOpenInfo = true">
-        <p class="w-1/2">Pino Pasticcio</p>
+        <p class="w-1/2">Federico Rossi</p>
         <p class="w-1/2">26-01-2023</p>
         <IconsArrowLeft class="h-4 w-4 absolute right-0" />
       </div>

@@ -2,7 +2,7 @@
 definePageMeta({
   layout: 'login',
 })
-const email = ref('PinoPasticcio')
+const email = ref('FedericoRossi')
 const password = ref('Ciao123!')
 
 const { login, isLogged } = useAuth()

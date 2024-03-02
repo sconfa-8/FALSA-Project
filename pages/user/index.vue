@@ -16,7 +16,7 @@ const tourTeamProps = {
 <template>
   <div class="h-full space-y-6">
     <div>
-      <h3 class="font-bold">Benvenuto in Retex, Pino!</h3>
+      <h3 class="font-bold">Benvenuto in Retex, Federico!</h3>
       <p>
         Cerchiamo di offrirti la migliore esperienza di onboarding possibile
         tramite questa applicazione, qui puoi trovare le risposte a tutti i tuoi
@@ -29,11 +29,11 @@ const tourTeamProps = {
     <div class="w-full flex flex-col md:flex-row gap-4">
       <div class="w-full md:w-1/2">
         Nome:
-        <p class="text-sm">Pino</p>
+        <p class="text-sm">Federico</p>
       </div>
       <div class="w-full md:w-1/2">
         Cognome:
-        <p class="text-sm">Pasticcio</p>
+        <p class="text-sm">Rossi</p>
       </div>
     </div>
     <div class="w-full flex flex-col md:flex-row gap-4">
@@ -53,7 +53,7 @@ const tourTeamProps = {
       </div>
       <div class="w-full md:w-1/2">
         Email:
-        <p class="text-sm">pino.pasticcio@atoms.retexspa.com</p>
+        <p class="text-sm">federico.rossi@atoms.retexspa.com</p>
       </div>
     </div>
     <div>

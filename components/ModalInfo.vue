@@ -19,11 +19,11 @@ const isOpenInfo = useState('isOpenInfo', () => false)
       <div class="w-full flex flex-col md:flex-row gap-4">
         <div class="w-full md:w-1/2">
           Nome:
-          <p class="text-sm">Pino</p>
+          <p class="text-sm">Federico</p>
         </div>
         <div class="w-full md:w-1/2">
           Cognome:
-          <p class="text-sm">Pasticcio</p>
+          <p class="text-sm">Rossi</p>
         </div>
       </div>
       <div class="w-full flex flex-col md:flex-row gap-4">
@@ -43,7 +43,7 @@ const isOpenInfo = useState('isOpenInfo', () => false)
         </div>
         <div class="w-full md:w-1/2">
           Email:
-          <p class="text-sm">pino.pasticcio@atoms.retexspa.com</p>
+          <p class="text-sm">federico.rossi@atoms.retexspa.com</p>
         </div>
       </div>
       <div>
@@ -79,7 +79,7 @@ const isOpenInfo = useState('isOpenInfo', () => false)
     <div class="flex gap-8">
       
       <div class="space-y-2">
-        <h3>Pino Pasticcio</h3>
+        <h3>Federico Rossi</h3>
         <div class="flex gap-2">
           <IconsStar class="w-4 h-4 text-gray-305000" />
           <IconsStar class="w-4 h-4 text-gray-500" />
@@ -97,7 +97,7 @@ const isOpenInfo = useState('isOpenInfo', () => false)
     <div class="flex gap-8">
       
       <div class="space-y-2">
-        <h3>Massimo Pegoraro @ Pino Pasticcio</h3>
+        <h3>Massimo Pegoraro @ Federico Rossi</h3>
         <div class="flex gap-2">
           <IconsStar class="w-4 h-4 text-gray-500" />
           <IconsStar class="w-4 h-4 text-gray-500" />
@@ -111,7 +111,7 @@ const isOpenInfo = useState('isOpenInfo', () => false)
     <div class="flex gap-8">
       
       <div class="space-y-2">
-        <h3>Antonello Sanna  @ Pino Pasticcio</h3>
+        <h3>Antonello Sanna  @ Federico Rossi</h3>
         <div class="flex gap-2">
           <IconsStar class="w-4 h-4 text-gray-500" />
           <IconsStar class="w-4 h-4 text-gray-500" />
