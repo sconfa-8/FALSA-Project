@@ -19,11 +19,11 @@ const isOpenInfo = useState('isOpenInfo', () => false)
       <div class="w-full flex flex-col md:flex-row gap-4">
         <div class="w-full md:w-1/2">
           Nome:
-          <p class="text-sm">Mario</p>
+          <p class="text-sm">Pino</p>
         </div>
         <div class="w-full md:w-1/2">
           Cognome:
-          <p class="text-sm">Rossi</p>
+          <p class="text-sm">Pasticcio</p>
         </div>
       </div>
       <div class="w-full flex flex-col md:flex-row gap-4">
@@ -43,7 +43,7 @@ const isOpenInfo = useState('isOpenInfo', () => false)
         </div>
         <div class="w-full md:w-1/2">
           Email:
-          <p class="text-sm">mario.rossi@atoms.retexspa.com</p>
+          <p class="text-sm">pino.pasticcio@atoms.retexspa.com</p>
         </div>
       </div>
       <div>

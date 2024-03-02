@@ -17,11 +17,11 @@ const isOpen = useState('isOpen', () => false)
       <div class="w-full flex flex-col md:flex-row gap-4">
         <div class="w-full md:w-1/2">
           Nome:
-          <Input>Mario</Input>
+          <Input>Pino</Input>
         </div>
         <div class="w-full md:w-1/2">
           Cognome:
-          <Input>Rossi</Input>
+          <Input>Pasticcio</Input>
         </div>
       </div>
       <div class="w-full flex flex-col md:flex-row gap-4">
@@ -41,7 +41,7 @@ const isOpen = useState('isOpen', () => false)
         </div>
         <div class="w-full md:w-1/2">
           Email:
-          <Select>mario.rossi@atoms.retexspa.com</Select>
+          <Select>pino.pasticcio@atoms.retexspa.com</Select>
         </div>
       </div>
       <div>
