@@ -18,8 +18,7 @@ const tourTeamProps = {
     <div>
       <h3 class="font-bold">Benvenuto in Retex, Pino!</h3>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua.
+        Cerchiamo di offrirti la migliore esperienza di onboarding possibile tramite questa applicazione, qui puoi trovare le risposte a tutti i tuoi dubbi riguardo alla nostra azienda!
       </p>
     </div>
     <OrganismsUserData v-bind="usersData[0]" />
