@@ -25,7 +25,7 @@ const isDefinitive = ref(false)
     <div class=" bg-retex">
       <Transition >
         <div v-if="isOpen" class="flex gap-2 justify-center">
-          <IconsStar class="h-8 w-8 cursor-pointer fill-white" v-for="i in 5" @click="clickHandler"/>
+          <IconsStarWhite class="h-8 w-8 cursor-pointer fill-white" v-for="i in 5" @click="clickHandler"/>
         </div>
       </Transition>
     </div>
