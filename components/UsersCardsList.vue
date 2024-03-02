@@ -38,7 +38,7 @@ const isOpenInfo = useState('isOpenInfo')
       @click="isOpen = true"
       class="fixed bottom-[120px] bg-slate-200 rounded-lg p-4 w-1/2 left-1/2 -translate-x-1/2"
     >
-      Create new user
+      Crea nuovo utente
     </button>
     <ModalInfo />
   </div>

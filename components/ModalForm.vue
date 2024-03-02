@@ -4,9 +4,9 @@ const isOpen = useState('isOpen', () => false)
 
 <template>
   <Transition name="fade">
-    <div
-      class="fixed overflow-y-scroll  inset-0 md:inset-20 z-[999] bg-white rounded-lg shadow-lg flex flex-col gap-4 p-8"
-      v-if="isOpen"
+        <div
+      class="fixed overflow-y-scroll inset-0 md:inset-20 z-[999] bg-white rounded-lg shadow-lg flex flex-col gap-4 p-8"
+      
     >
       <div class="form flex items-end justify-between pr-4 py-4 text-2xl">
         <p>Inserisci nuovo impiegato</p>
@@ -46,7 +46,7 @@ const isOpen = useState('isOpen', () => false)
       </div>
       <div>
         Data di ingresso:
-          <div class="w-full flex gap-4 items-center">
+        <div class="w-full flex gap-4 items-center">
           <Input class="w-1/3">13</Input>
           <p>/</p>
           <Input class="w-1/3">02</Input>
@@ -65,8 +65,16 @@ const isOpen = useState('isOpen', () => false)
           <Select>Simone Confalonieri</Select>
         </div>
       </div>
+      <div class="flex justify-center items-center">
+        <button
+          @click="isOpen = true"
+          class="bg-slate-200 rounded-lg p-4 w-1/2"
+        >
+          Crea nuovo utente
+        </button>
+      </div>
     </div>
-    
+  
   </Transition>
 </template>
 
