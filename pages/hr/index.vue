@@ -2,6 +2,6 @@
 
 <template>
   <div>
-    <p>This is Linting user page</p>
+    <UsersCardsList />
   </div>
 </template>
