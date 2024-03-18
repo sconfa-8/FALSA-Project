@@ -6,10 +6,5 @@
       class="block p-3 w-full text-sm text-gray-900 bg-transparent border-0 border-b-2 border-retex appearance-none "
       placeholder=" "
     />
-    <label
-      for="floating_standard"
-      class="absolute text-sm text-gray-500 duration-300 transform pl-3 top-3 -z-10 origin-[0] "
-      ><slot
-    /></label>
   </div>
 </template>
