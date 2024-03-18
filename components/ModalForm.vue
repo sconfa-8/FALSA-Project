@@ -25,11 +25,11 @@ const isOpen = useState('isOpen', () => false)
         </div>
       </div>
       <div class="w-full flex flex-col md:flex-row gap-4">
-        <Select class="w-full md:w-1/2" label="Ruolo" :options="[{label:'Developer',value:'developer'}]"></Select>
-        <Select class="w-full md:w-1/2" label="Divisione" :options="[{label:'Atoms',value:'atoms'}]"></Select>
+        <Select class="w-full md:w-1/2" label="Ruolo" :options="[{label:'Developer',value:'developer'},{label:'Designer',value:'designer'}]"></Select>
+        <Select class="w-full md:w-1/2" label="Divisione" :options="[{label:'Atoms',value:'atoms'},{label:'Connexia',value:'connexia'}]"></Select>
       </div>
       <div class="w-full flex flex-col md:flex-row gap-4">
-        <Select class="w-full md:w-1/2" label="Sede" :options="[{label:'Mestrino',value:'mestrino'}]"></Select>
+        <Select class="w-full md:w-1/2" label="Sede" :options="[{label:'Mestrino',value:'mestrino'},{label:'Milano',value:'milano'}]"></Select>
         <div class="w-full md:w-1/2">
           Email:
           <Input>federico.rossi@atoms.retexspa.com</Input>
