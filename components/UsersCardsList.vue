@@ -9,7 +9,7 @@ const isOpenInfo = useState('isOpenInfo')
     <p class="font-bold w-1/2 flex">Nome</p>
     <p class="font-bold w-1/2 flex">Data Ingresso</p>
   </div>
-  <div class="user-cards flex flex-col gap-2">
+  <div class="user-cards flex flex-col gap-2 cursor-pointer">
     <div>
       <div class="w-full flex relative" @click="isOpenInfo = true">
         <p class="w-1/2">Federico Rossi</p>
