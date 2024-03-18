@@ -48,7 +48,7 @@ const isOpen = useState('isOpen', () => false)
       <div class="h-[1px] bg-slate-500 my-2"></div>
       <div class="w-full flex flex-col md:flex-row gap-4">
         <Select class="w-full md:w-1/2" label="Team Leader" :options="[{label:'Massimo Pegoraro',value:'massimo_pegoraro'},{label:'Antonello Sanna',value:'antonello_sanna'}]"></Select>
-        <Select class="w-full md:w-1/2" label="Buddy" :options="[{label:'Simone Confalonieri',value:'simone_confalonieri'}]"></Select>
+        <Select class="w-full md:w-1/2" label="Buddy" :options="[{label:'Simone Confalonieri',value:'simone_confalonieri'},{label:'Luca Costa',value:'luca_costa'},{label:'Angelica Guglieri',value:'angelica_guglieri'},{label:'Fabio Bronzoni',value:'fabio_bronzoni'},{label:'Angelo Pili',value:'angelo_pili'}]"></Select>
       </div>
       <div class="flex justify-center items-center">
         <button
