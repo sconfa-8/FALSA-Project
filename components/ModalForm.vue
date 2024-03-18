@@ -25,23 +25,14 @@ const isOpen = useState('isOpen', () => false)
         </div>
       </div>
       <div class="w-full flex flex-col md:flex-row gap-4">
-        <div class="w-full md:w-1/2">
-          Ruolo:
-          <Select>Developer</Select>
-        </div>
-        <div class="w-full md:w-1/2">
-          Divisione:
-          <Select>Atoms</Select>
-        </div>
+        <Select class="w-full md:w-1/2" label="Ruolo" :options="[{label:'Developer',value:'developer'}]"></Select>
+        <Select class="w-full md:w-1/2" label="Divisione" :options="[{label:'Atoms',value:'atoms'}]"></Select>
       </div>
       <div class="w-full flex flex-col md:flex-row gap-4">
-        <div class="w-full md:w-1/2">
-          Sede:
-          <Select>Mestrino</Select>
-        </div>
+        <Select class="w-full md:w-1/2" label="Sede" :options="[{label:'Mestrino',value:'mestrino'}]"></Select>
         <div class="w-full md:w-1/2">
           Email:
-          <Select>federico.rossi@atoms.retexspa.com</Select>
+          <Input>federico.rossi@atoms.retexspa.com</Input>
         </div>
       </div>
       <div>
@@ -56,14 +47,8 @@ const isOpen = useState('isOpen', () => false)
       </div>
       <div class="h-[1px] bg-slate-500 my-2"></div>
       <div class="w-full flex flex-col md:flex-row gap-4">
-        <div class="w-full md:w-1/2">
-          Team Leader:
-          <Select>Massimo Pegoraro</Select>
-        </div>
-        <div class="w-full md:w-1/2">
-          Buddy:
-          <Select>Simone Confalonieri</Select>
-        </div>
+        <Select class="w-full md:w-1/2" label="Team Leader" :options="[{label:'Massimo Pegoraro',value:'massimo_pegoraro'},{label:'Antonello Sanna',value:'antonello_sanna'}]"></Select>
+        <Select class="w-full md:w-1/2" label="Buddy" :options="[{label:'Simone Confalonieri',value:'simone_confalonieri'}]"></Select>
       </div>
       <div class="flex justify-center items-center">
         <button
